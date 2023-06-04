@@ -7,8 +7,6 @@ interface CardProps{
 }
 
 function Card( props : CardProps) {
-    const name = "Nick";
-    const greeting = `Hello ${name}`; // "Hello Nick"
     return (
         <div style = {{backgroundColor: "lightblue", width: props.width, height: props.height, border: '5px solid black' }}>
 
